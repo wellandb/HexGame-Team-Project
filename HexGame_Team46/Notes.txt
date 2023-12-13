@@ -1,0 +1,67 @@
+To Do:
+Get Best Move for player
+Get Best Move for oppenent
+Work out possible lines through the board and make those more important tiles
+Weights for the board based on current board states
+Work out best opening moves and when to swap
+
+
+Heuristics:
+Path Finding algorithm for finding shortest Path
+Starter Weights for opening move : actue corners are bad, middle is good, edge is a good move against experienced players
+Board State Score
+
+STRATEGY:
+
+Generate rules for how the game should be played based on states
+
+Player 1 and 2 instead of red and black so that we can rotate the board and work out best opponent move
+Min-max using roation of the board
+
+The two-bridge strat
+
+Blocking moves
+
+Best defense is a good offense
+
+Work out weak points in their chain, e.g. a missed double bridge
+unless you are making a sequence of forcing plays, it is generally easier to think in terms of good defense than good offense regardless of whether you are currently winning or losing
+
+The player who is dictating the play is said to have the momentum. 
+Alternatively, the momentum is against the player who is being forced to respond to the opponent. 
+The player with the momentum usually has the advantage and this advantage is often decisive. 
+You should generally not hand over the momentum to the opponent unless you have a very good reason for doing so. 
+In well played close matches, the momentum often swings between the two players with each move.
+
+Multiple threats per move
+Whenever possible, a player should make each move achieve at least two different goals or threats. 
+Moves that contain only a single threat are generally not hard to meet. If a move contains multiple threats, the opponent may not be able to stop all the threats with a single move.
+
+The center
+The central region of the board is strategically the most important area. 
+From the center, connections can spread out in many directions giving you more flexibility and options than starting from an edge. 
+Furthermore, centrally played pieces are more nearly equidistant from both of your edges — this is related to point 3.1 about improving your weakest link. 
+The greater distance apart two pieces are, the harder they are to connect up, i.e. their potential link is weaker.
+
+The opening
+Without the swap rule, the initial move would be easy. 
+Playing in the center hex is the strongest opening move. 
+The weakest opening move is to play in one of the acute corners (a1 and the opposite corner) and is one of only two opening moves that are a proven loss (without the swap option). 
+The other is right next to it at b1. Suppose the vertical player moves first. 
+Which opening moves should you swap and which should you not swap? The following is my personal rules for the 10 × 10 board.
+
+Good opening moves on the 10 × 10
+The best opening moves against an experienced player are the border hexes (except don't open a1!) and b2 and c2. b2—d2 are probably the only good non-border moves against an experienced player (b2 is essentially equivalent to the move a2 which is a popular opening choice and there is almost no difference between b2 and c2). 
+Against lesser experienced players you can play something stronger such as one out from the obtuse corner (b9/i2) because they might not realize its strength and even if they do swap, they may not be capable of taking advantage of it anyway.
+a2/b2 and a3 both lead to a balanced game and seem to be the most popular choices. Except for games between expert players, you can safely play either side of a2/b2 or a3 and have an equal chance of winning (and similarly for other opening plays). 
+Also some variation in opening play is generally good. Varying your opening is the first thing to try against an opponent that seems to have your number. 
+Sometimes you can find a weakness in a player's personal swap rules by trying out different openings.
+
+The second and third moves
+A very common but not the only good response to a border opening is to play in one of the two central hexes e6 or f5.
+The third move in response to a central reply should be a blocking move on the side of e6/f5 that is farthest from the edge. 
+e6 is one hex closer to the left edge and f5 is one hex closer to the right edge. 
+In accordance with the principle of exploiting your opponent's weakest link, you should therefore block f5 on the left and e6 on the right. 
+Thus, a typical opening sequence would be a2, swap, f5, c6. In my opinion, the strength of the central response is overrated; 
+practically any move that is not in one of the 3 rows closest to your border rows and that is also not too close to the opponent's border, is a near equally good response. If there is any difference in strength, it is for all practical purposes non-existent.
+

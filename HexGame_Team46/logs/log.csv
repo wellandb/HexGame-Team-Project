@@ -1,0 +1,12 @@
+Start log at 2022-12-16 16:12:11.499181
+Board is 11x11.
+No,Player,X,Y,Time
+1,naive,0,5,141000
+2,yun,10,10,151000
+3,naive,5,2,23000
+4,yun,-2,,1212000
+0,naive,End,Illegal move,False
+0,Total,4,2505000,626250
+0,naive,2,164000,82000
+0,yun,2,1363000,681500
+
